@@ -7,3 +7,24 @@ release/
 *.AppImage
 .DS_Store
 Explain.md
+
+# LaTeX intermediate files (keep report/report.pdf; aux/log live under report/ too)
+*.aux
+*.log
+*.out
+*.toc
+*.lof
+*.lot
+*.fls
+*.fdb_latexmk
+*.synctex.gz
+*.bbl
+*.blg
+*.nav
+*.snm
+*.vrb
+
+# Local build artifact (large)
+assets/*.zip
+report/report.tex
+report/assets/github-icon.tex

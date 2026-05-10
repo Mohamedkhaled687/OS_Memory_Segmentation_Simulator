@@ -1,7 +1,3 @@
-<p align="center">
-  <img src="assets/fact.png" alt="Ain Shams University - Faculty of Engineering" width="350"/>
-</p>
-
 <h1 align="center">OS Memory Segmentation Simulator</h1>
 
 <p align="center">
@@ -119,29 +115,31 @@ User Action → View → ViewModel (Hook) → Model → Result
 
 ## Screenshots
 
+These use paths under `assets/`. **They only render on GitHub after you commit and push those PNG files** (the folder was previously untracked).
+
 ### System Initialization
 <p align="center">
-  <img src="assets/Test1_FirstFit_AddHoles.png" alt="System Initialization" width="90%"/>
+  <img src="./assets/Test1_FirstFit_AddHoles.png" alt="System Initialization" width="90%"/>
 </p>
 
 ### Process Allocation (First-Fit)
 <p align="center">
-  <img src="assets/Test1_FirstFit_AllocateProcess1.png" alt="First-Fit Allocation" width="90%"/>
+  <img src="./assets/Test1_FirstFit_AllocateProcess1.png" alt="First-Fit Allocation" width="90%"/>
 </p>
 
 ### Process Allocation (Best-Fit)
 <p align="center">
-  <img src="assets/Test2_BestFit_AllocateProcess1.png" alt="Best-Fit Allocation" width="90%"/>
+  <img src="./assets/Test2_BestFit_AllocateProcess1.png" alt="Best-Fit Allocation" width="90%"/>
 </p>
 
 ### Deallocation with Coalescing
 <p align="center">
-  <img src="assets/Test1_FirstFit_DeallocateProcess1.png" alt="Deallocation with Coalescing" width="90%"/>
+  <img src="./assets/Test1_FirstFit_DeallocateProcess1.png" alt="Deallocation with Coalescing" width="90%"/>
 </p>
 
 ### Allocation Error (Transactional Rollback)
 <p align="center">
-  <img src="assets/Test1_FirstFit_AllocateProcess3_Error.png" alt="Allocation Error" width="90%"/>
+  <img src="./assets/Test1_FirstFit_AllocateProcess3_Error.png" alt="Allocation Error" width="90%"/>
 </p>
 
 ---
@@ -216,8 +214,10 @@ OS_Memory_Segmentation_Simulator/
 │   └── build.yml               # CI/CD pipeline
 ├── scripts/
 │   └── electron-builder.yml    # Packaging config
-├── assets/                     # Images and icons
-├── report.pdf                  # Project report
+├── assets/                     # Images and icons (PNG screenshots — commit these for README images)
+├── report/
+│   ├── report.tex              # LaTeX source
+│   └── report.pdf              # Compiled project report
 ├── index.html
 ├── package.json
 ├── tsconfig.json
