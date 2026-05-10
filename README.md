@@ -12,12 +12,6 @@
   <img src="https://img.shields.io/badge/Tailwind_CSS-06B6D4?logo=tailwindcss&logoColor=white&style=for-the-badge" alt="Tailwind CSS"/>
 </p>
 
-<p align="center">
-  <a href="https://github.com/Mohamedkhaled687/OS_Memory_Segmentation_Simulator">
-    <img src="https://img.shields.io/badge/GitHub-Repository-181717?logo=github&style=for-the-badge" alt="GitHub Repo"/>
-  </a>
-</p>
-
 ---
 
 ## Table of Contents
@@ -273,8 +267,5 @@ This project is licensed under the MIT License. See [LICENSE](LICENSE) for detai
 
 <p align="center">
   <strong>Built for CSE335s — Operating Systems</strong><br/>
-  <strong>Ain Shams University, Faculty of Engineering</strong><br/><br/>
-  <a href="https://github.com/Mohamedkhaled687/OS_Memory_Segmentation_Simulator">
-    <img src="https://img.shields.io/badge/View_on_GitHub-181717?logo=github&logoColor=white&style=for-the-badge" alt="GitHub"/>
-  </a>
+  <strong>Ain Shams University, Faculty of Engineering</strong>
 </p>
