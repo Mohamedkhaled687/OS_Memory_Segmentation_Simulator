@@ -2,8 +2,13 @@ name: Build & Release Electron App
 
 on:
   push:
+    branches:
+      - "**"
     tags:
       - "v*"
+  pull_request:
+    branches:
+      - "**"
   workflow_dispatch:
 
 jobs:
@@ -38,4 +43,3 @@ jobs:
           path: release/*.exe
           retention-days: 30
 
-          
