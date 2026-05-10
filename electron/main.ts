@@ -26,6 +26,10 @@ function createWindow() {
     backgroundColor: "#1E1E1E",
   });
 
+  win.on("closed", () => {
+    win = null;
+  });
+
   if (VITE_DEV_SERVER_URL) {
     win.loadURL(VITE_DEV_SERVER_URL);
   } else {
